@@ -7,7 +7,7 @@
 - The Mapbox API
 
 ## Installation Instructions
-- **Create a new conda environment to avoid conflicts with other package installations:**
+### Create a new conda environment to avoid conflicts with other package installations:
 ```powershell
 conda deactivate
 ```
@@ -20,7 +20,7 @@ conda create -n pyviz python=3.7 anaconda
 ```powershell
 conda activate pyviz
 ```
-- Install PyViz packages:
+### Install PyViz packages:
 ```powershell
 conda install -c plotly plotly=4.13.
 ```
@@ -31,7 +31,7 @@ conda install -c pyviz hvplot
 ```powershell
 conda install -c conda-forge nodejs=12
 ```
-- Install required JupyterLab Dependencies:
+### Install required JupyterLab Dependencies:
 ```powershell
 conda install -c conda-forge jupyterlab=2
 ```
@@ -46,6 +46,10 @@ jupyter labextension install @pyviz/jupyterlab_pyviz --no-build
 ```
 ```powershell
 jupyter lab build
+```
+### Install python-dotenv
+```powershell
+pip install python-dotenv
 ```
 
 ---
