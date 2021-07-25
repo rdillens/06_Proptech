@@ -6,40 +6,40 @@
 
 
 ## Installation Instructions
-```bash
+```powershell
 conda deactivate
 ```
-```bash
+```powershell
 conda update conda
 ```
-```bash
+```powershell
 conda create -n pyviz python=3.7 anaconda
 ```
-```bash
+```powershell
 conda activate pyviz
 ```
-```bash
+```powershell
 conda install -c plotly plotly=4.13.
 ```
-```bash
+```powershell
 conda install -c pyviz hvplot
 ```
-```bash
+```powershell
 conda install -c conda-forge nodejs=12
 ```
-```bash
+```powershell
 conda install -c conda-forge jupyterlab=2
 ```
-```bash
+```powershell
 jupyter labextension install jupyterlab-plotly@4.13.0 --no-build
 ```
-```bash
+```powershell
 jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget@4.13.0 --no-build
 ```
-```bash
+```powershell
 jupyter labextension install @pyviz/jupyterlab_pyviz --no-build
 ```
-```bash
+```powershell
 jupyter lab build
 ```
 
