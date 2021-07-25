@@ -3,9 +3,11 @@
 
 ---
 ## Technologies
-
+- PyViz
+- The Mapbox API
 
 ## Installation Instructions
+- **Create a new conda environment to avoid conflicts with other package installations:**
 ```powershell
 conda deactivate
 ```
@@ -18,15 +20,18 @@ conda create -n pyviz python=3.7 anaconda
 ```powershell
 conda activate pyviz
 ```
+- Install PyViz packages:
 ```powershell
 conda install -c plotly plotly=4.13.
 ```
 ```powershell
 conda install -c pyviz hvplot
 ```
+- PyViz require NodeJS version >= 12
 ```powershell
 conda install -c conda-forge nodejs=12
 ```
+- Install required JupyterLab Dependencies:
 ```powershell
 conda install -c conda-forge jupyterlab=2
 ```
