@@ -39,10 +39,9 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget@4.
 ```powershell
 jupyter labextension install @pyviz/jupyterlab_pyviz --no-build
 ```
-```powershell
+```bash
 jupyter lab build
 ```
-```powershell
 
 ---
 ## Contributors
